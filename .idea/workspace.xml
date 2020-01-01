@@ -2,20 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="525a1ed1-d105-4b47-8b2b-059b1e21eee6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/org/launchcode/studio7/BaseDisc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/launchcode/studio7/OpticalDisc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/launchcode/studio7/CD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/launchcode/studio7/CD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/launchcode/studio7/DVD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/launchcode/studio7/DVD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/launchcode/studio7/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/launchcode/studio7/Main.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="java-web-dev-studio7" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -25,22 +31,94 @@
   </component>
   <component name="ProjectId" id="1TLblNw4yfHuUT4eYxfTNG8nVqg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Class1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.launchcode.studio7.Class1" />
+      <module name="java-web-dev-studio7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.launchcode.studio7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataStructure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.launchcode.studio7.DataStructure" />
+      <module name="java-web-dev-studio7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.launchcode.studio7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LocalClassExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.launchcode.studio7.LocalClassExample" />
+      <module name="java-web-dev-studio7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.launchcode.studio7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.launchcode.studio7.Main" />
+      <module name="java-web-dev-studio7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.launchcode.studio7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.DataStructure" />
+        <item itemvalue="Application.Class1" />
+        <item itemvalue="Application.LocalClassExample" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_NON_PUBLIC" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -60,10 +138,38 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1298" y="177" key="#com.intellij.ide.util.MemberChooser" timestamp="1577893259865">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="1298" y="177" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1112/2560.0.1920.1040@0.0.2048.1112" timestamp="1577893259864" />
+    <state width="970" height="200" key="GridCell.Tab.0.bottom" timestamp="1577893543239">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="970" height="200" key="GridCell.Tab.0.bottom/0.0.2048.1112/2560.0.1920.1040@0.0.2048.1112" timestamp="1577893543239" />
+    <state width="970" height="200" key="GridCell.Tab.0.center" timestamp="1577893543239">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="970" height="200" key="GridCell.Tab.0.center/0.0.2048.1112/2560.0.1920.1040@0.0.2048.1112" timestamp="1577893543239" />
+    <state width="970" height="200" key="GridCell.Tab.0.left" timestamp="1577893543238">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="970" height="200" key="GridCell.Tab.0.left/0.0.2048.1112/2560.0.1920.1040@0.0.2048.1112" timestamp="1577893543238" />
+    <state width="970" height="200" key="GridCell.Tab.0.right" timestamp="1577893543239">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="970" height="200" key="GridCell.Tab.0.right/0.0.2048.1112/2560.0.1920.1040@0.0.2048.1112" timestamp="1577893543239" />
+    <state x="1184" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1577828954947">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="1184" y="344" key="com.intellij.ide.util.TipDialog/0.0.2048.1112/2560.0.1920.1040@0.0.2048.1112" timestamp="1577828954947" />
   </component>
 </project>
