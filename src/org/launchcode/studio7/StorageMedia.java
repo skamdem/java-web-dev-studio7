@@ -1,15 +1,15 @@
 package org.launchcode.studio7;
 
-public abstract class BaseDisc implements OpticalDisc {
+public abstract class StorageMedia {
     private int storageCapacity;
     private String name;
     private String contents;
-    private String discType;
-    public BaseDisc(String name, int storageCapacity, String contents, String discType){
+    protected String readSpeed;
+
+    public StorageMedia(String name, int storageCapacity, String contents){
         this.name = name;
         this.storageCapacity = storageCapacity;
         this.contents = contents;
-        this.discType = discType;
     }
 
     public String getName() {
@@ -34,18 +34,5 @@ public abstract class BaseDisc implements OpticalDisc {
 
     public void setContents(String contents) {
         this.contents = contents;
-    }
-
-    public String getDiscType() {
-        return discType;
-    }
-
-    public void setDiscType(String discType) {
-        this.discType = discType;
-    }
-
-    protected void laserWritesData(){
-        spinDisc();
-        System.out.println("Data are being stored on the " + discType + " up to a maximum of " + storageCapacity + " MB.");
     }
 }

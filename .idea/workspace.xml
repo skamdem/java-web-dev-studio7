@@ -2,12 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="525a1ed1-d105-4b47-8b2b-059b1e21eee6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/org/launchcode/studio7/BaseDisc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/launchcode/studio7/OpticalDisc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-web-dev-studio7/org/launchcode/studio7/BaseDisc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-web-dev-studio7/org/launchcode/studio7/CD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-web-dev-studio7/org/launchcode/studio7/CD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-web-dev-studio7/org/launchcode/studio7/DVD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-web-dev-studio7/org/launchcode/studio7/DVD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-web-dev-studio7/org/launchcode/studio7/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-web-dev-studio7/org/launchcode/studio7/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-web-dev-studio7/org/launchcode/studio7/OpticalDisc.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/launchcode/studio7/CD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/launchcode/studio7/CD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/launchcode/studio7/DVD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/launchcode/studio7/DVD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/launchcode/studio7/DiscStorageMedia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/launchcode/studio7/DiscStorageMedia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/launchcode/studio7/Floppy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/launchcode/studio7/Floppy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/launchcode/studio7/Frisbee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/launchcode/studio7/Frisbee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/launchcode/studio7/LP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/launchcode/studio7/LP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/launchcode/studio7/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/launchcode/studio7/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/launchcode/studio7/Spinable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/launchcode/studio7/Spinable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/launchcode/studio7/StorageMedia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/launchcode/studio7/StorageMedia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/launchcode/studio7/Wheel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/launchcode/studio7/Wheel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,22 +162,26 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="1298" y="177" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1112/2560.0.1920.1040@0.0.2048.1112" timestamp="1577893259864" />
-    <state width="970" height="200" key="GridCell.Tab.0.bottom" timestamp="1577893543239">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1238" height="197" key="GridCell.Tab.0.bottom" timestamp="1580352253861">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="970" height="200" key="GridCell.Tab.0.bottom/0.0.2048.1112/2560.0.1920.1040@0.0.2048.1112" timestamp="1577893543239" />
-    <state width="970" height="200" key="GridCell.Tab.0.center" timestamp="1577893543239">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1238" height="197" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1580352253861" />
+    <state width="1238" height="197" key="GridCell.Tab.0.center" timestamp="1580352253860">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="970" height="200" key="GridCell.Tab.0.center/0.0.2048.1112/2560.0.1920.1040@0.0.2048.1112" timestamp="1577893543239" />
-    <state width="970" height="200" key="GridCell.Tab.0.left" timestamp="1577893543238">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1238" height="197" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1580352253860" />
+    <state width="1238" height="197" key="GridCell.Tab.0.left" timestamp="1580352253859">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="970" height="200" key="GridCell.Tab.0.left/0.0.2048.1112/2560.0.1920.1040@0.0.2048.1112" timestamp="1577893543238" />
-    <state width="970" height="200" key="GridCell.Tab.0.right" timestamp="1577893543239">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1238" height="197" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1580352253859" />
+    <state width="1238" height="197" key="GridCell.Tab.0.right" timestamp="1580352253860">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="970" height="200" key="GridCell.Tab.0.right/0.0.2048.1112/2560.0.1920.1040@0.0.2048.1112" timestamp="1577893543239" />
+    <state width="1238" height="197" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1580352253860" />
     <state x="1184" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1577828954947">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>

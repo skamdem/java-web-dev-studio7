@@ -1,21 +1,21 @@
 package org.launchcode.studio7;
 
-public class DVD extends BaseDisc {
-    private String spinningRate = "570 - 1600 rpm";
-    private String readSpeed = "1MB/s";
+public class DVD extends DiscStorageMedia {
 
-    public DVD(String name, int storageCapacity, String contents, String discType){
-        super(name, storageCapacity, contents, discType);
+    public DVD(String name, int storageCapacity, String contents){
+        super(name, storageCapacity, contents);
+        this.spinningRate = "570 - 1600 rpm";
+        this.readSpeed = "1MB/s";
     }
 
     @Override
     public void laserReadsData(){
         spinDisc();
-        System.out.println("Data are being read from the " + getDiscType() + " at the rate of " + readSpeed);
+        System.out.println("Data are being read from the "+  this.getClass().getName() +" entitled \"" + this.getName() + " at the rate of " + readSpeed);
     }
 
     @Override
     public void spinDisc() {
-        System.out.println("A "+ getDiscType() + " spins at a rate of " + spinningRate);
+        System.out.println("A "+ this.getClass().getName() +" entitled \"" + this.getName() + "\" spins at a rate of " + spinningRate);
     }
 }

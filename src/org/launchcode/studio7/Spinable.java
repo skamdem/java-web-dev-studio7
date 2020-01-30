@@ -1,6 +1,5 @@
 package org.launchcode.studio7;
 
-public interface OpticalDisc {
+public interface Spinable {
     void spinDisc();
-    void laserReadsData();
 }

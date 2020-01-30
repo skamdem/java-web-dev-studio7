@@ -6,8 +6,8 @@ public class Main {
 
         //Declare and initialize a CD and a DVD object.
         //String name, int storageCapacity, String contents, String discType
-        CD myCd = new CD("Learn programming in Javascript", 650, "Source code", "CD");
-        DVD myDvd = new DVD("Learn programming in Java", 6000, "SDK", "DVD");
+        CD myCd = new CD("Learn programming in Javascript", 650, "Source code");
+        DVD myDvd = new DVD("Learn programming in Java", 6000, "SDK");
 
         // Call each CD and DVD method to verify that they work as expected.
         myCd.spinDisc();
